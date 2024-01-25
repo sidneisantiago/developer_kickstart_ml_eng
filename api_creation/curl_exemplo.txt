@@ -1,0 +1,9 @@
+curl -X POST "http://localhost:8000/inference" -H "accept: application/json" -H "Content-Type: application/json" -d '{
+    "housing_median_age" : 25.0,
+    "total_rooms" : 3000.0,
+    "total_bedrooms" : 600.0,
+    "population" : 1500.0,
+    "households" : 550.0,
+    "median_income" : 4.5,
+    "ocean_proximity" : 1
+}'
